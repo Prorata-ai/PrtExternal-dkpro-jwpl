@@ -35,7 +35,7 @@ public class CommonUtilities
      * @return The resulting String of the contents of {@code s}.
      * @deprecated To be removed without replacement.
      */
-    @Deprecated(since = "2.0.0", forRemoval = true)
+    @Deprecated()
     public static String getSetContents(Set<?> s)
     {
         Object[] sortedArray = s.toArray();

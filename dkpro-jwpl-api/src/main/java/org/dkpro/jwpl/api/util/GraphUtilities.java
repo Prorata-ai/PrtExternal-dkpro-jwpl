@@ -49,7 +49,7 @@ public class GraphUtilities
      *            
      * @deprecated Use {@link #getRandomPageSubset(Set, int)} instead.
      */
-    @Deprecated(since = "2.0.0", forRemoval = true)
+    @Deprecated()
     public static Set<Integer> getRandomPageSubset(Iterable<Page> pages, int pResultSetSize)
     {
         Set<Integer> pageIDs = new HashSet<>();

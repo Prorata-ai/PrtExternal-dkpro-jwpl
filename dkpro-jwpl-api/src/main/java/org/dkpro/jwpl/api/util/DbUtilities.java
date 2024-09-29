@@ -31,7 +31,7 @@ import org.slf4j.LoggerFactory;
  *
  * @deprecated To be removed without replacement.
  */
-@Deprecated(since = "2.0.0", forRemoval = true)
+@Deprecated()
 public class DbUtilities
 {
 

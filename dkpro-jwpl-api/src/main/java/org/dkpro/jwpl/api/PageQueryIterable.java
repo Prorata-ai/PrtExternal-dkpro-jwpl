@@ -68,7 +68,7 @@ public class PageQueryIterable
         if (q.onlyArticlePages()) {
             conditions.add("p.isDisambiguation = 0");
         }
-        if (q.getTitlePattern() != null && !q.getTitlePattern().isBlank()) {
+        if (q.getTitlePattern() != null && !q.getTitlePattern().trim().isEmpty()) {
             conditions.add("p.name like :name");
             hasTitlePattern = true;
         }

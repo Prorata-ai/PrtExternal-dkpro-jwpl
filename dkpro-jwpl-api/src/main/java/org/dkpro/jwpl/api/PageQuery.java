@@ -364,7 +364,7 @@ public class PageQuery
      * @return A string that shows the current values of the query members.
      * @deprecated To be removed without replacement.
      */
-    @Deprecated(since = "2.0.0", forRemoval = true)
+    @Deprecated
     public String getQueryInfo()
     {
         StringBuilder sb = new StringBuilder();
