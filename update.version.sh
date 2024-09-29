@@ -15,7 +15,7 @@
 # specific language governing permissions and limitations
 # under the License.
 
-mvn versions:set -DnewVersion=2.0.000-SNAPSHOT
+mvn versions:set -DnewVersion=2.0.001-SNAPSHOT
 
 mvn versions:commit
 
